@@ -2,6 +2,8 @@
 
 A fully responsive, modern portfolio website built from scratch to showcase my projects in development, graphic design, and video editing.
 
+**🚀 View Live Demo:** [https://hassanabbas.vercel.app](https://hassanabbas.vercel.app)
+
 ## 📌 Project Features
 - Fully responsive layout (Mobile First Methodology).
 - Clear and semantic HTML structure.
@@ -20,6 +22,6 @@ You can **clone** the repository to your local machine or **fork** it in your Gi
 
 ```bash
 # Clone the repository using HTTPS
-git clone [https://github.com/salman-abbas-dev/hassanabbas]
+git clone [https://github.com/salman-abbas-dev/hassanabbas.git](https://github.com/salman-abbas-dev/hassanabbas.git)
 
 Designed & developed with ❤️ by Salman Abbas
