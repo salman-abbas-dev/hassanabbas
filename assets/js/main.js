@@ -103,14 +103,23 @@ servicesButtons.forEach(button => {
    })
 })
 
-/*=============== TESTIMONIALS OF DUPLICATE CARDS ===============*/ 
-const tracks = document.querySelectorAll('.testimonials__content')
-tracks.forEach(track => {
-   const cards = [...track.children]
+/*=============== SWIPER TESTIMONIALS ===============*/ 
+const swiperTestimonials = new Swiper('.testimonials__swiper', {
+   loop: true,
+   spaceBetween: 24,
+   slidesPerView: 'auto',
+   grabCursor: true,
+   speed: 600,
 
-   for (const card of cards) {
-      track.appendChild(card.cloneNode(true))
-    }
+  // If we need pagination
+  pagination: {
+     el: '.swiper-pagination',
+     clickable: true,
+   },
+   autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+  }
 })
 /*=============== CONTACT EMAIL JS ===============*/ 
 const contactForm = document.getElementById('contact-form'),
