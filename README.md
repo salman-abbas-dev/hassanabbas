@@ -20,6 +20,6 @@ You can **clone** the repository to your local machine or **fork** it in your Gi
 
 ```bash
 # Clone the repository using HTTPS
-git clone [https://github.com/salman-abbas-dev/portfolio.git](https://github.com/salman-abbas-dev/portfolio.git)
+git clone [https://github.com/salman-abbas-dev/hassanabbas]
 
 Designed & developed with ❤️ by Salman Abbas
